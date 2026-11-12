@@ -2,22 +2,17 @@
 
 ---
 
-![Python](https://shields.io)
-![Scikit-Learn](https://shields.io)
-![Streamlit](https://shields.io)
-![GenAI](https://shields.io)
-
 An end-to-end **Hybrid AI Supply Chain Operations System** that predicts 3PL shipment delays before dispatch using **Machine Learning** and automatically generates root-cause diagnostics and supervisor escalation emails using a **Generative AI Agent**.
 
 ---
 
 ## 🖥️ Live Webpage Preview
 
-![AI Supply Chain SLA Risk Dashboard - High Risk](screenshots/webpage_highRisk_preview.png)
+![AI Supply Chain SLA Risk Dashboard - High Risk](webpage_highRisk_preview.png)
 
 *Interactive Streamlit operations console showing real-time delay probability scoring (`71.2%` High-Risk Alert), origin warehouse dwell time diagnostics (`16 hrs`), and automated Generative AI supervisor escalation drafting.*
 
-![AI Supply Chain SLA Risk Dashboard - Safe](screenshots/webpage_safe_preview.png)
+![AI Supply Chain SLA Risk Dashboard - Safe](webpage_safe_preview.png)
 
 *Interactive Streamlit operations console showing real-time delay probability scoring (`34%` On-Time Track), origin warehouse dwell time diagnostics (`4 hrs`).*
 
