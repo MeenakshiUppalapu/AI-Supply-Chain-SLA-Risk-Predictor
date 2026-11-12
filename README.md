@@ -119,11 +119,3 @@ Training a `RandomForestClassifier` pipeline (`OneHotEncoder` + `ColumnTransform
    ```
 
 *(Optional)* To enable live LLM generation instead of the built-in deterministic fallback engine, set either `OPENAI_API_KEY` or `GEMINI_API_KEY` in your environment variables.
-
----
-
-## 🛠️ Tech Stack
-* **Programming & Data Manipulation:** Python 3.11+, Pandas, NumPy
-* **Machine Learning:** Scikit-Learn (`RandomForestClassifier`, `ColumnTransformer`, `Pipeline`), Joblib
-* **Generative AI:** OpenAI API / Google Gemini API (with rule-based enterprise fallback)
-* **Frontend & Visualization:** Streamlit
